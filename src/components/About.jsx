@@ -5,7 +5,7 @@ function About() {
     return (
       <>
         <div className="container">
-            <p className="main_hi">About me</p>
+            <p className="main_hi">About //</p>
             <h2 className="about-description">
                 Hi, I’m Nori, an aspiring frontend developer passionate about crafting sleek, 
                 user-friendly web experiences. I’m committed to lifelong learning, with certifications 
