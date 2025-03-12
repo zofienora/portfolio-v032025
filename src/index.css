@@ -26,6 +26,10 @@ a {
   color: inherit;
 }
 
+li {
+  list-style: none;
+}
+
 /* Global */
 
 .container {
