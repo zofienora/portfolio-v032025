@@ -18,8 +18,7 @@ body {
   padding:0;
   color: var(--text-color);
   font-family: var(--font-text);
-
-  
+  background-attachment: fixed;
   background-color: #0c0b0b; /* Ensures pure black background */
   background-image: url(./assets/noise.svg);
   background-repeat: repeat; /* Tiles the noise properly */
