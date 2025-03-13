@@ -1,6 +1,8 @@
 /* CSS Start */
 :root {
   --text-color: #EAEAEA; /* Off-white text */
+  --font-text: "Poppins", sans-serif;
+
 }
 
 *, *::before, *::after {
@@ -15,12 +17,13 @@ body {
   margin: 0;
   padding:0;
   color: var(--text-color);
+  font-family: var(--font-text);
 
   
   background-color: #0c0b0b; /* Ensures pure black background */
   background-image: url(./assets/noise.svg);
   background-repeat: repeat; /* Tiles the noise properly */
-  background-size: 300px; /* Adjust size for the effect */
+  background-size: 400px; /* Adjust size for the effect */
 }
 
 
