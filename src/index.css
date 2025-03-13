@@ -48,6 +48,13 @@ li {
 
 .container {
   width: 80%;
-  max-width: 1300px;
+  max-width: 1100px;
   margin: 0 auto;
+  border: 1px solid red;
+  height: 100%
+}
+
+.main_hi {
+  font-size: .9rem;
+  text-transform: uppercase;
 }
