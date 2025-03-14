@@ -7,6 +7,10 @@ import githubBlack from "../assets/github-black.png";
 import linkedinWhite from "../assets/linkedin-white.png";
 import linkedinBlack from "../assets/linkedin-black.png";
 
+
+
+
+
 function Contact() {
     const [codepenlogo, setCodepenLogo] = useState(codepenWhite);
     const [githublogo, setGithubLogo] = useState(githubWhite);
@@ -17,10 +21,6 @@ function Contact() {
     
     return (
       <>
-      <div className="letsconnect">
-        <div className="letsconnect-first">Let's Connect // Let's Connect // </div>
-        <div className="letsconnect-second">Let's Connect // Let's Connect // </div>
-      </div>
 
       <div className="container connect-container">
         <p className="main_hi">Contact //</p>
@@ -120,4 +120,4 @@ function Contact() {
     )
   }
   
-  export default Contact;
+  export default Contact

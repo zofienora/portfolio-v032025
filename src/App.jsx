@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Letsconnect from './components/Letsconnect';
 import { useEffect } from "react";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Header />
       <About />
       <Projects />
+      <Letsconnect />
       <Contact />
     </>
   )
