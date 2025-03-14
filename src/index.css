@@ -18,6 +18,7 @@ body {
   padding:0;
   color: var(--text-color);
   font-family: var(--font-text);
+  letter-spacing: 0.05em;
   background-attachment: fixed;
   background-color: #0c0b0b; /* Ensures pure black background */
   background-image: url(./assets/noise.svg);
@@ -57,4 +58,5 @@ li {
 .main_hi {
   font-size: .9rem;
   text-transform: uppercase;
+  font-weight: 100;
 }

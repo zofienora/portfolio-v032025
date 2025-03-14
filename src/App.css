@@ -13,7 +13,7 @@ header {
 }
 
 .header-line {
-  font-size: 4.5rem;
+  font-size: 3rem;
 }
 
 /* about */
@@ -25,8 +25,39 @@ header {
 }
 
 .about-description {
-  font-size: 1.2rem;  /* Reduce for smaller screens */
+  font-size: 1rem;  /* Reduce for smaller screens */
   line-height: 1.6;   /* More spacing for better readability */
-  letter-spacing: 0.05em; /* Use 'em', 'cap' is not well-supported */
+  font-weight: 200;
+}
+
+/* Projects */
+
+.project-container {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  
+}
+
+.project-subcontainer {
+  width: 100%;
+
+}
+
+.seperator {
+  border-bottom: 1px solid #EAEAEA;
+  margin-top: .75em;
+
+}
+
+.project-block {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
   font-weight: 400;
+  text-transform: uppercase;
+}
+
+.pro-img-container {
+  margin: 1em 0;
 }
