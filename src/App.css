@@ -61,3 +61,46 @@ header {
 .pro-img-container {
   margin: 1em 0;
 }
+
+/* connect */
+
+.letsconnect {
+  padding: 3em 0;
+}
+
+.letsconnect-first {
+  font-size: 1.3rem;
+}
+
+.letsconnect-second {
+  font-size: 1.3rem;
+  color:#949191;
+  text-align: right;
+}
+
+/* contact */
+
+.connect-container {
+  height: 60vh;
+}
+
+.mail {
+  margin: 3em 0;
+}
+
+.mail-link {
+  background-color: #262626;
+  padding: .5em 1em;
+  border-radius: 100px;
+  font-size: 1rem;
+  font-weight: 200;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.mail-link:hover {
+  background-color: #EAEAEA;
+  color: #262626;
+}
+
+.connect-link {
+}

@@ -3,22 +3,25 @@ function Contact() {
     
     return (
       <>
-      <div>Let's Connect // Let's Connect // </div>
-      <div>Let's Connect // Let's Connect // </div>
-      <div className="container">
+      <div className="letsconnect">
+        <div className="letsconnect-first">Let's Connect // Let's Connect // </div>
+        <div className="letsconnect-second">Let's Connect // Let's Connect // </div>
+      </div>
+
+      <div className="container connect-container">
         <p className="main_hi">Contact //</p>
-        <p>Let's Connect</p>
+    
         <div>
             <div className="mail">
-                <a href="#" className="mail">sophienora92@gmail.com</a>
+                <a href="mailto:sophienora92@gmail.com" className="mail-link">sophienora92@gmail.com →</a>
+                
             </div>
+
             <ul className="connect-list">
                 <li className="connect-item">
                     <div>
                         <a href="#" className="connect-link">
-                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
-                                <path d="M 8 3.0097656 C 4.53 3.0097656 2.0097656 5.0892187 2.0097656 7.9492188 C 2.0097656 10.819219 4.59 12.990234 8 12.990234 C 11.47 12.990234 13.990234 10.870625 13.990234 7.890625 C 13.830234 5.020625 11.36 3.0097656 8 3.0097656 z M 3 15 C 2.45 15 2 15.45 2 16 L 2 45 C 2 45.55 2.45 46 3 46 L 13 46 C 13.55 46 14 45.55 14 45 L 14 16 C 14 15.45 13.55 15 13 15 L 3 15 z M 18 15 C 17.45 15 17 15.45 17 16 L 17 45 C 17 45.55 17.45 46 18 46 L 27 46 C 27.552 46 28 45.552 28 45 L 28 30 L 28 29.75 L 28 29.5 C 28 27.13 29.820625 25.199531 32.140625 25.019531 C 32.260625 24.999531 32.38 25 32.5 25 C 32.62 25 32.739375 24.999531 32.859375 25.019531 C 35.179375 25.199531 37 27.13 37 29.5 L 37 45 C 37 45.552 37.448 46 38 46 L 47 46 C 47.55 46 48 45.55 48 45 L 48 28 C 48 21.53 44.529063 15 36.789062 15 C 33.269062 15 30.61 16.360234 29 17.490234 L 29 16 C 29 15.45 28.55 15 28 15 L 18 15 z"></path>
-                            </svg>
+                            <img src="./assets/codepen.png" alt="" />
                         </a>
                     </div>
                 </li>
@@ -26,9 +29,7 @@ function Contact() {
                 <li className="connect-item">
                     <div>
                         <a href="#" className="connect-link">
-                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
-                                <path d="M 25 2.8125 L 24.464844 3.15625 L 3 16.796875 L 3 33.203125 L 25 47.1875 L 47 33.203125 L 47 16.796875 Z M 25 5.1875 L 45 17.894531 L 45 32.105469 L 25 44.8125 L 5 32.105469 L 5 17.894531 Z M 24 8.128906 L 7.761719 18.449219 L 15.582031 23.871094 L 24 18.136719 Z M 26 8.128906 L 26 18.136719 L 26.4375 18.433594 L 34.417969 23.871094 L 42.238281 18.449219 Z M 22 11.769531 L 22 17.078125 L 15.59375 21.445313 L 11.375 18.519531 Z M 28 11.769531 L 38.625 18.519531 L 34.40625 21.441406 L 28 17.078125 Z M 25 19.8125 L 17.300781 25.0625 L 25 30.398438 L 25.570313 30.003906 L 32.699219 25.0625 Z M 7 20.292969 L 7 29.722656 L 13.859375 25.046875 L 12.660156 24.21875 Z M 43 20.296875 L 36.140625 25.046875 L 37.34375 25.871094 L 43 29.722656 Z M 25 22.234375 L 29.167969 25.078125 L 25 27.964844 L 20.832031 25.078125 Z M 9 24.113281 L 10.328125 25.035156 L 9 25.9375 Z M 41 24.113281 L 41 25.9375 L 39.671875 25.035156 Z M 15.574219 26.238281 L 15.003906 26.625 L 7.773438 31.558594 L 24 41.871094 L 24 32.078125 Z M 34.425781 26.238281 L 26 32.078125 L 26 41.871094 L 42.226563 31.558594 Z M 15.5625 28.667969 L 22 33.125 L 22 38.230469 L 11.40625 31.5 Z M 34.4375 28.667969 L 38.59375 31.5 L 28 38.230469 L 28 33.125 Z"></path>
-                            </svg>
+                            <img src="" alt="" />
                         </a>
                     </div>
                 </li>
