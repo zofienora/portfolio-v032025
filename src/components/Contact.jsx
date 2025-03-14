@@ -26,6 +26,7 @@ function Contact() {
         <p className="main_hi">Contact //</p>
     
         <div>
+            <p className="contact-text">I’m always open to exciting opportunities and collaborations. Let’s talk!</p>
             <div className="mail">
                 <a href="mailto:sophienora92@gmail.com" className="mail-link">sophienora92@gmail.com →</a>
                 
@@ -33,9 +34,10 @@ function Contact() {
 
             <ul className="connect-list">
                 <li className="connect-item">
-                    <div >
+                    <div>
                         <a href="#" className="connect-link">
                             <img 
+                            className="img-logo"
                             src={codepenlogo}
                             alt="codepen"
                             onMouseEnter={() => {
@@ -50,7 +52,7 @@ function Contact() {
                             style={{
                                 backgroundColor: cpbackground,
                                 borderRadius: "50%",
-                                padding: "1em"
+                                padding: ".5em"
                             }}
                             />
                         </a>
@@ -61,6 +63,7 @@ function Contact() {
                     <div>
                         <a href="#" className="connect-link">
                             <img 
+                            className="img-logo"
                             src={githublogo} 
                             alt="GitHub" 
                             onMouseEnter={() => {
@@ -74,7 +77,7 @@ function Contact() {
                             style={{
                                 backgroundColor: ghbackground,
                                 borderRadius: "50%",
-                                padding: "1em"
+                                padding: ".5em"
                             }}
                             />
                         </a>
@@ -85,6 +88,7 @@ function Contact() {
                     <div>
                         <a href="#" className="connect-link">
                             <img 
+                            className="img-logo"
                             src={linkedinlogo} 
                             alt="LinkedIn" 
                             onMouseEnter={() => {
@@ -98,7 +102,7 @@ function Contact() {
                             style={{
                                 backgroundColor: libackground,
                                 borderRadius: "50%",
-                                padding: "1em"
+                                padding: ".5em"
                             }}
                             />
                         </a>
@@ -106,6 +110,8 @@ function Contact() {
                 </li>
                 
             </ul>
+
+            <p className="footerDetails">Sophie Nora Keil<br/>Icons von <a target="_blank" href="https://icons8.com">Icons8</a></p>
         </div>
 
       </div>

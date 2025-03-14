@@ -81,7 +81,9 @@ header {
 /* contact */
 
 .connect-container {
+  border:2px solid blue;
   height: 60vh;
+  padding: 4em 0;
 }
 
 .mail {
@@ -101,4 +103,26 @@ header {
   background-color: #EAEAEA;
   color: #262626;
 }
+
+.img-logo {
+  width: 5rem;
+}
+
+
+.contact-text {
+  font-size: 1rem;  /* Reduce for smaller screens */
+  line-height: 1.6;   /* More spacing for better readability */
+  font-weight: 200;
+  padding-bottom: 3em;
+}
+
+.connect-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+
+}
+
 
