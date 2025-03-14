@@ -1,5 +1,10 @@
 
+import { useState } from "react";
+import codepenWhite from "../assets/codepen-white.png";
+import codepenBlack from "../assets/codepen-black.png";
+
 function Contact() {
+    const [logo, setLogo] = useState(codepenWhite);
     
     return (
       <>
@@ -21,7 +26,13 @@ function Contact() {
                 <li className="connect-item">
                     <div>
                         <a href="#" className="connect-link">
-                            <img src="./src/assets/codepen.png" alt="" />
+                            <img 
+                            src={logo}
+                            alt=""
+                            onMouseEnter={() => setLogo(codepenBlack)} 
+                            onMouseLeave={() => setLogo(codepenWhite)} 
+                            />
+                            
                         </a>
                     </div>
                 </li>
