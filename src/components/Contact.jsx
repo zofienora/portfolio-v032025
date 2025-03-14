@@ -111,7 +111,7 @@ function Contact() {
                 
             </ul>
 
-            <p className="footerDetails">Sophie Nora Keil<br/>Icons von <a target="_blank" href="https://icons8.com">Icons8</a></p>
+            <p className="footerDetails">&copy; Sophie Nora Keil<br/>Icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
         </div>
 
       </div>
