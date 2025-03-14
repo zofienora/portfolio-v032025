@@ -21,7 +21,7 @@ function Contact() {
                 <li className="connect-item">
                     <div>
                         <a href="#" className="connect-link">
-                            <img src="./assets/codepen.png" alt="" />
+                            <img src="./src/assets/codepen.png" alt="" />
                         </a>
                     </div>
                 </li>
