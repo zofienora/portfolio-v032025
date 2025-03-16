@@ -13,14 +13,20 @@ function Letsconnect() {
     return (      
         <div className="letsconnect">
             <motion.div
-                style={{ x: translateX }} 
+                style={{ 
+                    x: translateX,
+                    overflow: "hidden"
+                 }} 
                 className="letsconnect-first"
             >
                 Let's Connect //
             </motion.div>
 
             <motion.div
-                style={{ x: translate }} 
+                style={{ 
+                    x: translate,
+                    overflow: "hidden"
+                 }} 
                 className="letsconnect-second"
             >
                 // Let's Connect
