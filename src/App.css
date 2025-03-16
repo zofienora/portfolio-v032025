@@ -16,10 +16,12 @@ header {
   font-size: 3rem;
 }
 
+
+
 /* about */
 
 .about {
-  height: 100vh;
+  height: 70vh;
   display: grid;
   place-items: center;
 }
@@ -33,7 +35,7 @@ header {
 /* Projects */
 
 .project-container {
-  height: 100vh;
+  height: 80vh;
   display: grid;
   place-items: center;
   
