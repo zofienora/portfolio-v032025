@@ -59,7 +59,7 @@ header {
   }
  }
 
- @media screen and (min-width: 1200px) { 
+ @media screen and (min-width: 1300px) { 
   .about {
     height: 100vh;
   }
@@ -101,6 +101,10 @@ header {
 .pro-img-container {
   margin: 1em 0;
 }
+
+@media screen and (min-width: 400px) { 
+  
+ }
 
 /* connect */
 
