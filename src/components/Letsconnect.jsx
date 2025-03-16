@@ -1,5 +1,4 @@
 import { motion, useScroll, useMotionValueEvent, useTransform } from "framer-motion";
-import { useState } from "react";
 
 
 function Letsconnect() {
