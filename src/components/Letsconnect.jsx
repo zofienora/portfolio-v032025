@@ -19,7 +19,7 @@ function Letsconnect() {
                  }} 
                 className="letsconnect-first"
             >
-                Let's Connect //
+                letsconnectletsconnect
             </motion.div>
 
             <motion.div
@@ -29,7 +29,7 @@ function Letsconnect() {
                  }} 
                 className="letsconnect-second"
             >
-                // Let's Connect
+                letsconnectletsconnect
             </motion.div>
         </div>
     );
