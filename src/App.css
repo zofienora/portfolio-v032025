@@ -3,6 +3,8 @@
   --font-text: "Poppins", sans-serif;
 }
 
+/*  Header  */
+
 header {
   height: 100vh;
 }
@@ -10,6 +12,7 @@ header {
 .header {
   display: grid;
   place-items: center;
+  padding-bottom: 5rem;
 }
 
 .header-line {
@@ -33,6 +36,20 @@ header {
     font-size: 7rem!important;
   }
  }
+
+/* Menu Bar */
+
+.menubar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-logo {
+  width: 3rem;
+  cursor: pointer;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
 
 /* about */
 
