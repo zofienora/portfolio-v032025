@@ -1,22 +1,26 @@
 import { useState } from "react";
+import closeGrey from "../assets/close-grey.png";
+import closeWhite from "../assets/close-white.png";
 
 
 function Menu() {
-  const [navLogo, setnavLogo] = useState();
+  const [navLogo, setnavLogo] = useState(closeWhite);
     
     return (
       <>
       <div className="navbarSlide">
         <img 
             className="close" 
-            src="" 
-            alt="" 
+            src={navLogo}
+            alt="Close Navgation" 
+            onMouseEnter={() => {
+                setnavLogo(closeGrey);
+            }}
+            onMouseLeave={() => {
+                setnavLogo(closeWhite);
+            }}
         
         />
-
-
-
-
 
 
         <ul className="navList">
