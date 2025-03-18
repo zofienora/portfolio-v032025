@@ -3,12 +3,12 @@ import closeGrey from "../assets/close-grey.png";
 import closeWhite from "../assets/close-white.png";
 
 
-function Menu() {
+function Menu({ isOpen, toggleMenu }) {
   const [navLogo, setnavLogo] = useState(closeWhite);
     
     return (
       <>
-      <div className="navbarSlide">
+      <div className={`navbarSlide ${isOpen ? "show" : ""}`}>
         <img 
             className="close" 
             src={navLogo}
@@ -19,7 +19,7 @@ function Menu() {
             onMouseLeave={() => {
                 setnavLogo(closeWhite);
             }}
-        
+            onClick={toggleMenu} // Close sidebar on click
         />
 
 

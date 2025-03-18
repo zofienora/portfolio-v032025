@@ -5,7 +5,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Letsconnect from './components/Letsconnect';
-import { useEffect } from "react";
+import { useEffect, useState } from "react"; // ✅ Add useState here
 import Menu from './components/Menu';
 
 function App() {
@@ -14,10 +14,18 @@ function App() {
     document.documentElement.style.scrollBehavior = "smooth";
   }, []);
 
+  // ⬇️ Add sidebar state
+  const [isOpen, setIsOpen] = useState(false);
+
+  // ⬇️ Function to toggle sidebar open/close
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <>
-      <Menu />
-      <Navbar />
+      <Menu isOpen={isOpen} toggleMenu={toggleMenu} />
+      <Navbar toggleMenu={toggleMenu} />
       <Header />
       <About />
       <Projects />
