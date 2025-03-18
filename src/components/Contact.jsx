@@ -22,7 +22,7 @@ function Contact() {
     return (
       <>
 
-      <div className="container connect-container">
+      <div id="contact" className="container connect-container">
         <p className="main_hi">Contact //</p>
     
         <div>

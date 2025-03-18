@@ -4,7 +4,7 @@ function About() {
     
     return (
       <>
-        <div className="container about">
+        <div id="about" className="container about">
           <motion.div 
             className="about-container"
             initial={{ opacity: 0, scale: 0.75 }}

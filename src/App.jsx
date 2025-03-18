@@ -7,6 +7,8 @@ import Contact from "./components/Contact";
 import Letsconnect from './components/Letsconnect';
 import { useEffect, useState } from "react"; // ✅ Add useState here
 import Menu from './components/Menu';
+import { BrowserRouter as Router } from "react-router-dom";
+
 
 function App() {
   // Enable smooth scrolling
@@ -23,15 +25,17 @@ function App() {
   };
 
   return (
-    <>
-      <Menu isOpen={isOpen} toggleMenu={toggleMenu} />
-      <Navbar toggleMenu={toggleMenu} />
-      <Header />
-      <About />
-      <Projects />
-      <Letsconnect />
-      <Contact />
-    </>
+    <Router>
+      <>
+        <Menu isOpen={isOpen} toggleMenu={toggleMenu} />
+        <Navbar toggleMenu={toggleMenu} />
+        <Header id="header" />
+        <About id="about" />
+        <Projects id="projects" />
+        <Letsconnect />
+        <Contact id="contact" />
+      </>
+    </Router>
   )
 }
 

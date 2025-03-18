@@ -13,7 +13,7 @@ function Projects() {
     
     return (
       <>
-      <div className="container project-container">
+      <div id="projects" className="container project-container">
         <div className="project-subcontainer">
             <p className="main_hi">Projects //</p>
             

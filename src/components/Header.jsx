@@ -2,7 +2,7 @@ function Header() {
 
     return (
       <>
-        <header>
+        <header id="header">
             <div className="container header" >
                 <div className="header-container">
                     <p className="main_hi">Hi there!</p>
