@@ -35,7 +35,7 @@ function Contact() {
             <ul className="connect-list">
                 <li className="connect-item">
                     <div>
-                        <a href="https://codepen.io/zofienora" className="connect-link">
+                        <a href="https://codepen.io/zofienora" className="connect-link" target="_blank" rel="noopener noreferrer">
                             <img 
                             className="img-logo"
                             src={codepenlogo}
@@ -61,7 +61,7 @@ function Contact() {
 
                 <li className="connect-item">
                     <div>
-                        <a href="https://github.com/zofienora" className="connect-link">
+                        <a href="https://github.com/zofienora" className="connect-link" target="_blank" rel="noopener noreferrer">
                             <img 
                             className="img-logo"
                             src={githublogo} 
@@ -86,7 +86,7 @@ function Contact() {
 
                 <li className="connect-item">
                     <div>
-                        <a href="https://www.linkedin.com/in/sophie-nora-keil-39332a325/" className="connect-link">
+                        <a href="https://www.linkedin.com/in/sophie-nora-keil-39332a325/" className="connect-link" target="_blank" rel="noopener noreferrer">
                             <img 
                             className="img-logo"
                             src={linkedinlogo} 
