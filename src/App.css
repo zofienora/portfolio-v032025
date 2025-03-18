@@ -72,6 +72,10 @@ header {
   align-content: center;
 }
 
+.navbarSlide.show {
+  right: 0;
+}
+
 
 .navList {
   display: grid; 
