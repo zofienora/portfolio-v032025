@@ -51,6 +51,42 @@ header {
   margin-top: 1rem;
 }
 
+/* Menu Navigation bar, which slides in */
+
+.navbarSlide {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0; /* to slide in from the right */
+  background-color: black;
+  opacity: 0.95;
+  z-index: 1000;
+  transition: right 300ms ease-out;
+  text-align: right;
+  padding-right: 2rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 5px;
+  align-content: center;
+}
+
+
+.navList {
+  display: grid; 
+  gap: 50px; 
+}
+
+.linkItems:hover {
+  color:#949191;
+}
+
+.close {
+  position: fixed;
+}
+
+
 /* about */
 
 .about {
