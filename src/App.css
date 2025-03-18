@@ -58,7 +58,7 @@ header {
   width: 100%;
   position: fixed;
   top: 0;
-  right: 0; /* to slide in from the right */
+  right: -100%; /* to slide in from the right */
   background-color: black;
   opacity: 0.95;
   z-index: 1000;
