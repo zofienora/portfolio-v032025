@@ -167,7 +167,10 @@ header {
   font-weight: 400;
   text-transform: uppercase;
   font-family: "Bytesized", sans-serif;
+}
 
+.project-block:hover {
+  color: #949191;
 }
 
 .pro-img-container {
