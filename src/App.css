@@ -202,6 +202,7 @@ header {
 .letsconnect {
   padding: 3em 0;
   font-family: "Bytesized", sans-serif;
+  overflow: hidden;
 }
 
 .letsconnect-first {
