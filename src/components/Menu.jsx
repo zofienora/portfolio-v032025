@@ -32,7 +32,7 @@ function Menu({ isOpen, toggleMenu }) {
             <Link smooth to="#contact" className="linkItems" onClick={toggleMenu}>Contact</Link>
           </li>
           <li className="listItems">
-            <Link smooth to="#" className="linkItems" onClick={toggleMenu}>Code Laboratory</Link>
+            <Link smooth to="#" className="linkItems" onClick={toggleMenu}>Code Court</Link>
           </li>
         </ul>
       </div>
