@@ -7,9 +7,9 @@ function Projects() {
         console.log(val);
     })  
 
-    const scale = useTransform(scrollYProgress, [0.5, 0.65], [0.1, 1]);
-    const scalet = useTransform(scrollYProgress, [0.55, 0.7], [0.1, 1]);
-    const scaleh = useTransform(scrollYProgress, [0.6, 0.75], [0.1, 1]);
+    const scale = useTransform(scrollYProgress, [0.4, 0.65], [0.1, 1]);
+    const scalet = useTransform(scrollYProgress, [0.4, 0.65], [0.1, 1]);
+    const scaleh = useTransform(scrollYProgress, [0.4, 0.65], [0.1, 1]);
     
     return (
       <>
