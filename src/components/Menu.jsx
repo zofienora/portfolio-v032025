@@ -32,7 +32,15 @@ function Menu({ isOpen, toggleMenu }) {
             <Link smooth to="#contact" className="linkItems" onClick={toggleMenu}>Contact</Link>
           </li>
           <li className="listItems">
-            <Link smooth to="#" className="linkItems" onClick={toggleMenu}>Code Court</Link>
+            <a
+              href="https://codecourt.vercel.app/"
+              className="linkItems"
+              onClick={toggleMenu}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Code Court
+            </a>
           </li>
         </ul>
       </div>
