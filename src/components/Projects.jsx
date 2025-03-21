@@ -22,7 +22,7 @@ function Projects() {
                     <img className="pro-img" src="" alt="" />
                 </a>
                 <div className="project-block">
-                    <a href="project">Daily To-Dos</a>
+                    <a href="https://todolistv1-smoky.vercel.app/" target="_blank" rel="noopener noreferrer">Daily To-Dos</a>
                     <div className="project-num">01</div>
                 </div>
                 <motion.div 
@@ -36,7 +36,7 @@ function Projects() {
                     <img className="pro-img" src="" alt="" />
                 </a>
                 <div className="project-block">
-                    <a href="project">Weather App</a>
+                    <a href="https://weatherapp-react-one.vercel.app/" target="_blank" rel="noopener noreferrer">Weather App</a>
                     <div className="project-num">02</div>
                 </div>
                 <motion.div 
@@ -50,7 +50,7 @@ function Projects() {
                     <img className="pro-img" src="" alt="" />
                 </a>
                 <div className="project-block">
-                    <a href="project">Calculator</a>
+                    <a href="https://calculator-taupe-zeta-28.vercel.app/" target="_blank" rel="noopener noreferrer">Calculator</a>
                     <div className="project-num">03</div>
                 </div>
                 <motion.div 
