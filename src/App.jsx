@@ -8,6 +8,7 @@ import Letsconnect from './components/Letsconnect';
 import { useEffect, useState } from "react"; // ✅ Add useState here
 import Menu from './components/Menu';
 import { BrowserRouter as Router } from "react-router-dom";
+import ThreeD from './components/ThreeD';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Menu isOpen={isOpen} toggleMenu={toggleMenu} />
         <Navbar toggleMenu={toggleMenu} />
         <Header id="header" />
+        <ThreeD />
         <About id="about" />
         <Projects id="projects" />
         <Letsconnect />
