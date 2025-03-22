@@ -331,7 +331,7 @@ header {
 .threeD {
   position: absolute;
   top: 40%;
-  left: 60%;
+  left: 50%;
   width: 200px; 
   height: 200px;
   z-index: 10;

@@ -8,7 +8,8 @@ export default function ThreeD() {
     className='threeD'
     >
       <Spline         
-        scene="https://prod.spline.design/y-wzmtN8AZUyQRBb/scene.splinecode" 
+                scene="https://prod.spline.design/OuRyFJRgnDfqd5Rw/scene.splinecode" 
+
       />
     </div>
   );
